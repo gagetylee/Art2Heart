@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB4162EB290EE37100F9E8AE /* QuadrantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4162EA290EE37100F9E8AE /* QuadrantModel.swift */; };
+		FB4162ED290EE6C300F9E8AE /* SubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4162EC290EE6C300F9E8AE /* SubmitButton.swift */; };
+		FB4162EF290EEEFE00F9E8AE /* SkipButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4162EE290EEEFE00F9E8AE /* SkipButton.swift */; };
+		FB4162F1290EF23300F9E8AE /* DrawingControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4162F0290EF23300F9E8AE /* DrawingControls.swift */; };
+		FB4162F3290EF2CB00F9E8AE /* ColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4162F2290EF2CB00F9E8AE /* ColorPicker.swift */; };
+		FB4162F5290EF35700F9E8AE /* ColorsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4162F4290EF35700F9E8AE /* ColorsProvider.swift */; };
 		FBC7D5F5290DE15200678937 /* MentalHealthAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC7D5F4290DE15200678937 /* MentalHealthAppApp.swift */; };
 		FBC7D5F7290DE15200678937 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC7D5F6290DE15200678937 /* ContentView.swift */; };
 		FBC7D5F9290DE15500678937 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC7D5F8290DE15500678937 /* Assets.xcassets */; };
 		FBC7D5FC290DE15500678937 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC7D5FB290DE15500678937 /* Preview Assets.xcassets */; };
+		FBC7D605290E1F9D00678937 /* Quadrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC7D604290E1F9D00678937 /* Quadrant.swift */; };
+		FBC7D609290EC1A500678937 /* DrawingPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC7D608290EC1A500678937 /* DrawingPad.swift */; };
+		FBC7D60E290EDB3100678937 /* DrawingCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC7D60D290EDB3100678937 /* DrawingCanvas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB4162EA290EE37100F9E8AE /* QuadrantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadrantModel.swift; sourceTree = "<group>"; };
+		FB4162EC290EE6C300F9E8AE /* SubmitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitButton.swift; sourceTree = "<group>"; };
+		FB4162EE290EEEFE00F9E8AE /* SkipButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkipButton.swift; sourceTree = "<group>"; };
+		FB4162F0290EF23300F9E8AE /* DrawingControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingControls.swift; sourceTree = "<group>"; };
+		FB4162F2290EF2CB00F9E8AE /* ColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicker.swift; sourceTree = "<group>"; };
+		FB4162F4290EF35700F9E8AE /* ColorsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsProvider.swift; sourceTree = "<group>"; };
 		FBC7D5F1290DE15200678937 /* MentalHealthApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MentalHealthApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC7D5F4290DE15200678937 /* MentalHealthAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalHealthAppApp.swift; sourceTree = "<group>"; };
 		FBC7D5F6290DE15200678937 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FBC7D5F8290DE15500678937 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBC7D5FB290DE15500678937 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FBC7D604290E1F9D00678937 /* Quadrant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quadrant.swift; sourceTree = "<group>"; };
+		FBC7D608290EC1A500678937 /* DrawingPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingPad.swift; sourceTree = "<group>"; };
+		FBC7D60D290EDB3100678937 /* DrawingCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingCanvas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +69,10 @@
 		FBC7D5F3290DE15200678937 /* MentalHealthApp */ = {
 			isa = PBXGroup;
 			children = (
+				FBC7D60C290EC30D00678937 /* Components */,
+				FBC7D603290E1F5100678937 /* Views */,
+				FBC7D602290E1F4900678937 /* Model */,
 				FBC7D5F4290DE15200678937 /* MentalHealthAppApp.swift */,
-				FBC7D5F6290DE15200678937 /* ContentView.swift */,
 				FBC7D5F8290DE15500678937 /* Assets.xcassets */,
 				FBC7D5FA290DE15500678937 /* Preview Content */,
 			);
@@ -65,6 +85,37 @@
 				FBC7D5FB290DE15500678937 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FBC7D602290E1F4900678937 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB4162EA290EE37100F9E8AE /* QuadrantModel.swift */,
+				FB4162F4290EF35700F9E8AE /* ColorsProvider.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FBC7D603290E1F5100678937 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FBC7D5F6290DE15200678937 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FBC7D60C290EC30D00678937 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FBC7D604290E1F9D00678937 /* Quadrant.swift */,
+				FBC7D608290EC1A500678937 /* DrawingPad.swift */,
+				FBC7D60D290EDB3100678937 /* DrawingCanvas.swift */,
+				FB4162EC290EE6C300F9E8AE /* SubmitButton.swift */,
+				FB4162EE290EEEFE00F9E8AE /* SkipButton.swift */,
+				FB4162F0290EF23300F9E8AE /* DrawingControls.swift */,
+				FB4162F2290EF2CB00F9E8AE /* ColorPicker.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +188,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB4162F5290EF35700F9E8AE /* ColorsProvider.swift in Sources */,
+				FB4162EB290EE37100F9E8AE /* QuadrantModel.swift in Sources */,
+				FBC7D605290E1F9D00678937 /* Quadrant.swift in Sources */,
+				FBC7D609290EC1A500678937 /* DrawingPad.swift in Sources */,
+				FB4162F3290EF2CB00F9E8AE /* ColorPicker.swift in Sources */,
+				FBC7D60E290EDB3100678937 /* DrawingCanvas.swift in Sources */,
+				FB4162ED290EE6C300F9E8AE /* SubmitButton.swift in Sources */,
+				FB4162F1290EF23300F9E8AE /* DrawingControls.swift in Sources */,
 				FBC7D5F7290DE15200678937 /* ContentView.swift in Sources */,
+				FB4162EF290EEEFE00F9E8AE /* SkipButton.swift in Sources */,
 				FBC7D5F5290DE15200678937 /* MentalHealthAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
